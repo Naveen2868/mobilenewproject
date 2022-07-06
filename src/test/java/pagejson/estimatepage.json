@@ -1,0 +1,121 @@
+{
+  "cash_pickup": {
+    "android": {
+      "ele_Ref": "//android.widget.TextView[@text='Cash pickup']",
+      "ele_type": "xpath",
+      "timeout": "10"
+    },
+    "ios": {
+      "ele_Ref": "Dummy",
+      "ele_type": "xpath",
+      "timeout": "10"
+    },
+    "web": {
+      "ele_Ref": "Dummy",
+      "ele_type": "xpath",
+      "timeout": "10"
+    }
+  },
+  "to_bank_account": {
+    "android": {
+      "ele_Ref": "//android.widget.TextView[@text='Bank account']",
+      "ele_type": "xpath",
+      "timeout": "10"
+    },
+    "ios": {
+      "ele_Ref": "Dummy",
+      "ele_type": "xpath",
+      "timeout": "10"
+    },
+    "web": {
+      "ele_Ref": "Dummy",
+      "ele_type": "xpath",
+      "timeout": "10"
+    }
+  },
+  "from_credit_card": {
+    "android": {
+      "ele_Ref": "//android.widget.TextView[@text='Credit/debit card']",
+      "ele_type": "xpath",
+      "timeout": "10"
+    },
+    "ios": {
+      "ele_Ref": "Dummy",
+      "ele_type": "css",
+      "timeout": "10"
+    },
+    "web": {
+      "ele_Ref": "Dummy",
+      "ele_type": "name",
+      "timeout": "10"
+    }
+  },
+  "from_online_transfer": {
+    "android": {
+      "ele_Ref": "//android.widget.TextView[@text='Online bank transfer']",
+      "ele_type": "xpath",
+      "timeout": "10"
+    },
+    "ios": {
+      "ele_Ref": "Dummy",
+      "ele_type": "name",
+      "timeout": "10"
+    },
+    "web": {
+      "ele_Ref": "Dummy",
+      "ele_type": "css",
+      "timeout": "10"
+    }
+  },
+  "from_bank_transfer": {
+    "android": {
+      "ele_Ref": "//android.widget.TextView[@text='Bank transfer']",
+      "ele_type": "xpath",
+      "timeout": "10"
+    },
+    "ios": {
+      "ele_Ref": "Dummy",
+      "ele_type": "name",
+      "timeout": "10"
+    },
+    "web": {
+      "ele_Ref": "Dummy",
+      "ele_type": "css",
+      "timeout": "10"
+    }
+  },
+  "next_button": {
+    "android": {
+      "ele_Ref": "//*[@text='Next']",
+      "ele_type": "xpath",
+      "timeout": "10"
+    },
+    "ios": {
+      "ele_Ref": "Dummy",
+      "ele_type": "xpath",
+      "timeout": "10"
+    },
+    "web": {
+      "ele_Ref": "Dummy",
+      "ele_type": "xpath",
+      "timeout": "10"
+    }
+  },
+  "accept_button": {
+    "android": {
+      "ele_Ref": "//*[@text='Accept']",
+      "ele_type": "xpath",
+      "timeout": "10"
+    },
+    "ios": {
+      "ele_Ref": "Dummy",
+      "ele_type": "xpath",
+      "timeout": "10"
+    },
+    "web": {
+      "ele_Ref": "Dummy",
+      "ele_type": "xpath",
+      "timeout": "10"
+    }
+  }
+}

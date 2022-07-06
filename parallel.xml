@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel suite testing" parallel="tests" thread-count="2">
+    <test name="Test Basics 1">
+        <parameter name="platformType" value="Android"/>
+        <parameter name="deviceName" value="One plus"/>
+        <parameter name="platformVersion" value="11"/>
+        <parameter name="udid" value="9f2a470a"/>
+        <parameter name="portNumber" value="9999"/>
+
+        <classes>
+            <class name="SearchMatch"/>
+        </classes>
+    </test>
+
+    <!--<test name="Test Basics 2">
+        <parameter name="platformType" value="Android"/>
+        <parameter name="deviceName" value="emulator-5554"/>
+        <parameter name="platformVersion" value="11"/>
+        <parameter name="udid" value=""/>
+        <parameter name="portNumber" value="8888"/>
+
+        <classes>
+            <class name="RegistrationTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Basics 3">
+        <parameter name="platformType" value="Android"/>
+        <parameter name="deviceName" value="emulator-5556"/>
+        <parameter name="platformVersion" value="11"/>
+        <parameter name="udid" value=""/>
+        <parameter name="portNumber" value="1212"/>
+
+        <classes>
+            <class name="WULoginTest"/>
+        </classes>
+    </test>-->
+
+</suite>

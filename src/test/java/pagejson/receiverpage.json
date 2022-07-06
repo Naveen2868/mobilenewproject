@@ -1,0 +1,250 @@
+{
+  "allow_btn": {
+    "android": {
+      "ele_Ref": "//*[@text='Allow' or @text='ALLOW']",
+      "ele_type": "xpath",
+      "timeout": "10"
+    },
+    "ios": {
+      "ele_Ref": "Dummy",
+      "ele_type": "xpath",
+      "timeout": "10"
+    },
+    "web": {
+      "ele_Ref": "Dummy",
+      "ele_type": "xpath",
+      "timeout": "10"
+    }
+  },
+  "add_receiver": {
+    "android": {
+      "ele_Ref": "//android.view.View[@resource-id='sendMoney_receiver_selectReceiver']",
+      "ele_type": "xpath",
+      "timeout": "10"
+    },
+    "ios": {
+      "ele_Ref": "Dummy",
+      "ele_type": "xpath",
+      "timeout": "10"
+    },
+    "web": {
+      "ele_Ref": "Dummy",
+      "ele_type": "xpath",
+      "timeout": "10"
+    }
+  },
+  "existing_users": {
+    "android": {
+      "ele_Ref": "//android.widget.TextView[@text='History' or @resource-id='page-title']",
+      "ele_type": "xpath",
+      "timeout": "10"
+    },
+    "ios": {
+      "ele_Ref": "Dummy",
+      "ele_type": "css",
+      "timeout": "10"
+    },
+    "web": {
+      "ele_Ref": "Dummy",
+      "ele_type": "name",
+      "timeout": "10"
+    }
+  },
+  "first_name": {
+    "android": {
+      "ele_Ref": "//android.widget.EditText[@resource-id='firstName']",
+      "ele_type": "xpath",
+      "timeout": "10"
+    },
+    "ios": {
+      "ele_Ref": "Dummy",
+      "ele_type": "name",
+      "timeout": "10"
+    },
+    "web": {
+      "ele_Ref": "Dummy",
+      "ele_type": "css",
+      "timeout": "10"
+    }
+  },
+  "middle_name": {
+  "android": {
+    "ele_Ref": "//android.widget.EditText[@resource-id='middleName']",
+    "ele_type": "xpath",
+    "timeout": "10"
+  },
+  "ios": {
+    "ele_Ref": "Dummy",
+    "ele_type": "name",
+    "timeout": "10"
+  },
+  "web": {
+    "ele_Ref": "Dummy",
+    "ele_type": "css",
+    "timeout": "10"
+  }
+},"email": {
+  "android": {
+    "ele_Ref": "//android.widget.EditText[@resource-id='email']",
+    "ele_type": "xpath",
+    "timeout": "10"
+  },
+  "ios": {
+    "ele_Ref": "Dummy",
+    "ele_type": "name",
+    "timeout": "10"
+  },
+  "web": {
+    "ele_Ref": "Dummy",
+    "ele_type": "css",
+    "timeout": "10"
+  }
+},"mobile_number": {
+  "android": {
+    "ele_Ref": "//android.widget.EditText[@resource-id='phoneNumber']",
+    "ele_type": "xpath",
+    "timeout": "10"
+  },
+  "ios": {
+    "ele_Ref": "Dummy",
+    "ele_type": "name",
+    "timeout": "10"
+  },
+  "web": {
+    "ele_Ref": "Dummy",
+    "ele_type": "css",
+    "timeout": "10"
+  }
+},"purpose_of_transfer_dropdown": {
+  "android": {
+    "ele_Ref": "//android.widget.Button[@text='Purpose of transfer']",
+    "ele_type": "xpath",
+    "timeout": "10"
+  },
+  "ios": {
+    "ele_Ref": "Dummy",
+    "ele_type": "name",
+    "timeout": "10"
+  },
+  "web": {
+    "ele_Ref": "Dummy",
+    "ele_type": "css",
+    "timeout": "10"
+  }
+},"source_of_funds_dropdown": {
+  "android": {
+    "ele_Ref": "//android.widget.Button[@text='Source of funds']",
+    "ele_type": "xpath",
+    "timeout": "10"
+  },
+  "ios": {
+    "ele_Ref": "Dummy",
+    "ele_type": "name",
+    "timeout": "10"
+  },
+  "web": {
+    "ele_Ref": "Dummy",
+    "ele_type": "css",
+    "timeout": "10"
+  }
+},
+  "sur_name": {
+    "android": {
+      "ele_Ref": "//android.widget.EditText[@resource-id='lastName']",
+      "ele_type": "xpath",
+      "timeout": "10"
+    },
+    "ios": {
+      "ele_Ref": "Dummy",
+      "ele_type": "name",
+      "timeout": "10"
+    },
+    "web": {
+      "ele_Ref": "Dummy",
+      "ele_type": "css",
+      "timeout": "10"
+    }
+  },"purpose_rent": {
+  "android": {
+    "ele_Ref": "//android.widget.TextView[@text='VARIABLE']",
+    "ele_type": "xpath",
+    "timeout": "10"
+  },
+  "ios": {
+    "ele_Ref": "Dummy",
+    "ele_type": "name",
+    "timeout": "10"
+  },
+  "web": {
+    "ele_Ref": "Dummy",
+    "ele_type": "css",
+    "timeout": "10"
+  }
+},"source_gift": {
+  "android": {
+    "ele_Ref": "//android.widget.TextView[@text='VARIABLE']",
+    "ele_type": "xpath",
+    "timeout": "10"
+  },
+  "ios": {
+    "ele_Ref": "Dummy",
+    "ele_type": "name",
+    "timeout": "10"
+  },
+  "web": {
+    "ele_Ref": "Dummy",
+    "ele_type": "css",
+    "timeout": "10"
+  }
+},"add_button": {
+  "android": {
+    "ele_Ref": "//*[@text='Add']",
+    "ele_type": "xpath",
+    "timeout": "10"
+  },
+  "ios": {
+    "ele_Ref": "Dummy",
+    "ele_type": "name",
+    "timeout": "10"
+  },
+  "web": {
+    "ele_Ref": "Dummy",
+    "ele_type": "css",
+    "timeout": "10"
+  }
+},
+  "next_button": {
+    "android": {
+      "ele_Ref": "//*[@text='Next']",
+      "ele_type": "xpath",
+      "timeout": "10"
+    },
+    "ios": {
+      "ele_Ref": "Dummy",
+      "ele_type": "xpath",
+      "timeout": "10"
+    },
+    "web": {
+      "ele_Ref": "Dummy",
+      "ele_type": "xpath",
+      "timeout": "10"
+    }
+  },
+  "accept_button": {
+    "android": {
+      "ele_Ref": "//*[@text='Accept']",
+      "ele_type": "xpath",
+      "timeout": "10"
+    },
+    "ios": {
+      "ele_Ref": "Dummy",
+      "ele_type": "xpath",
+      "timeout": "10"
+    },
+    "web": {
+      "ele_Ref": "Dummy",
+      "ele_type": "xpath",
+      "timeout": "10"
+    }
+  }
+}

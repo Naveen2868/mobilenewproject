@@ -1,0 +1,65 @@
+{"next_button" : {
+  "android": {
+    "ele_Ref": "//android.widget.ImageView[@content-desc='Next']",
+    "ele_type": "xpath",
+    "timeout": "10"
+  },"ios": {
+    "ele_Ref": "Dummy",
+    "ele_type": "xpath",
+    "timeout": "10"
+  },
+  "web": {
+    "ele_Ref": "Dummy",
+    "ele_type": "xpath",
+    "timeout": "10"
+  }
+},
+"sign_in_button" : {
+  "android": {
+    "ele_Ref": "//android.widget.Button[@resource-id='signin_btn']",
+    "ele_type": "xpath",
+    "timeout": "10"
+  },"ios": {
+    "ele_Ref": "Dummy",
+    "ele_type": "xpath",
+    "timeout": "10"
+  },
+  "web": {
+    "ele_Ref": "Dummy",
+    "ele_type": "xpath",
+    "timeout": "10"
+  }
+},
+  "email" : {
+    "android": {
+      "ele_Ref": "//android.widget.EditText[@resource-id='email']",
+      "ele_type": "xpath",
+      "timeout": "10"
+    },"ios": {
+      "ele_Ref": "Dummy",
+      "ele_type": "css",
+      "timeout": "10"
+    },
+    "web": {
+      "ele_Ref": "Dummy",
+      "ele_type": "name",
+      "timeout": "10"
+    }
+  },
+  "password" : {
+    "android": {
+      "ele_Ref": "//android.widget.EditText[@resource-id='password']",
+      "ele_type": "xpath",
+      "timeout": "10"
+    },"ios": {
+      "ele_Ref": "Dummy",
+      "ele_type": "name",
+      "timeout": "10"
+    },
+    "web": {
+      "ele_Ref": "Dummy",
+      "ele_type": "css",
+      "timeout": "10"
+    }
+  }
+}
